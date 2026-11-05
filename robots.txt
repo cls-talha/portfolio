@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cls-talha.github.io/portfolio/sitemap.xml
