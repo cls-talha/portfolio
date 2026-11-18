@@ -38,13 +38,10 @@
   });
 });
  /*******/
+// Image hover mousemove movement disabled per user request
 var move_img = document.getElementById("banner-right-img");
 if (move_img) {
-  move_img.addEventListener("mousemove", (e) =>{
-    let x = e.layerX
-    let y = e.layerY
-    move_img.style.transform = `translate(-${x /6}px)`;
-  });
+  move_img.style.transform = "none";
 }
 /********/
 // UPDATE: I was able to get this working again... Enjoy!

@@ -178,6 +178,13 @@ body{
     -webkit-animation: mover 1s infinite  alternate;
     animation: mover 2s infinite  alternate;
 }
+#banner-right-img {
+    transform: none !important;
+    transition: none !important;
+}
+#banner-right-img:hover {
+    transform: none !important;
+}
 .happy-con::before{
     content: "";
     width:52px;
