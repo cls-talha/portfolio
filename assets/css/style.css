@@ -1949,6 +1949,28 @@ body{
     font-family: 'Lato', sans-serif;
     margin-bottom: 0;
 }
+.academic-card.research-expandable {
+    cursor: pointer;
+}
+.pipeline-toggle-badge {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(252, 166, 31, 0.12);
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.5px;
+    transition: all 0.25s ease;
+}
+.academic-card.research-expandable:hover .pipeline-toggle-badge {
+    background: var(--accent);
+    color: #1c1833;
+}
 
 /*------------------------------------------------------------------
 [Portfolio Thumbnail & Grid Fix]
