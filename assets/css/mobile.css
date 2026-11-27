@@ -1164,3 +1164,17 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 991.98px) {
+  #banner-right-con > figure {
+    display: flex;
+    justify-content: center;
+  }
+
+  #banner-right-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-inline: auto;
+  }
+}
